@@ -1,7 +1,7 @@
 {
-  "name": "nuxtlify",
+  "name": "noticias-pelotas",
   "version": "1.0.0",
-  "description": "Blog template for Nuxt.js/Netlify",
+  "description": "Fique por dentro do que acontece na sua cidade",
   "author": "Daniel Kelly",
   "license": "MIT",
   "scripts": {

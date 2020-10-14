@@ -2,9 +2,8 @@
   <footer class="site-footer">
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
     Rights Reserved
-    <br />
-    Made with <span style="color: #e25555;">&#9829;</span> with Nuxt.js and
-    Netlify
+    <br />    
+    <script data-ad-client="ca-pub-8943217263828014" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </footer>
 </template>
 
