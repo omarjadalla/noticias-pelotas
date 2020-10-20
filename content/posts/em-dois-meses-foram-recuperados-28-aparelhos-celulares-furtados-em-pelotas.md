@@ -5,7 +5,7 @@ category:
   - Policial
 author: Daniel Garcia
 date: 2020-10-08T18:54:00.000Z
-featureImage: uploads/download.jpg
+featureImage: uploads/about-hero.jpg
 ---
 
 
