@@ -12,12 +12,13 @@ export default {
   siteName: 'Notícias Pelotas',
   tagline: 'Fique por dentro do que acontece na sua cidade',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.png',//'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
+    /*
     {
       name: 'About',
       link: '/about'
@@ -40,6 +41,7 @@ export default {
       link: 'https://awake-premium-lp.netlify.com/',
       target: '_blank'
     }
+    */
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -66,7 +68,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
@@ -95,7 +97,7 @@ export default {
     on: true,
     theme: null, // See card.theme (can be unique for posts if set here)
     imageDimensions: null, // See card.imageDimensions (can be unique for posts if set here)
-    displayAuthor: true,
+    displayAuthor: false,
     date: {
       display: true
     },
